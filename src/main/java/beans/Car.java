@@ -7,8 +7,8 @@ import java.lang.annotation.Retention;
 @Entity
 public class Car {
 
-    private String brand;
     private String licensePlate;
+    private String brand;
     private int horsePower;
     private Double price;
 
